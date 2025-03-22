@@ -60,6 +60,9 @@ const checkAndSendPrayerNotification = () => {
         
         // Har bir namoz vaqtini tekshirish
         for (const [prayerName, prayerTime] of Object.entries(times)) {
+        console.log(prayerTime);
+        console.log(now + "now");
+            
             if (prayerTime === now) {
                 bot.sendMessage(
                     userId,
