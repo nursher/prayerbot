@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
 const moment = require('moment'); // Sana va vaqtni formatlash uchun
 
-const TOKEN = '7578178047:AAGVW20nbC8LtHBn38_nL2cSFBcfWpa9Vyc';
+const TOKEN = '7280428482:AAFj0oY59KKymSJutv9NOWQUrdtEnPzMdxo';
 const bot = new TelegramBot(TOKEN, { polling: true });
 
 const regions = [
